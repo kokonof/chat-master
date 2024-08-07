@@ -47,7 +47,6 @@ $messages = getMessages();
     <div class="container d-flex flex-wrap">
         <ul class="nav me-auto">
             <li class="nav-item"><a href="Frontend/index.php" class="nav-link link-body-emphasis px-2 active" aria-current="page">Головна</a></li>
-            <li class="nav-item"><a href="chat.php" class="nav-link link-body-emphasis px-2">Чат</a></li>
         </ul>
         <ul class="nav">
 
