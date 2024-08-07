@@ -1,0 +1,33 @@
+.authorization {
+
+    background: url('https://oir.mobi/uploads/posts/2021-03/1616979248_28-p-sinii-neonovii-fon-29.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Чорний фон з прозорістю 40% */
+    z-index: -1;
+}
+
+.login-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Білий фон з прозорістю 20% */
+}
+
+
+.registration-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4); /* Білий фон з прозорістю 20% */
+}
