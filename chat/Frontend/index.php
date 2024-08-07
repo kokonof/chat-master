@@ -4,28 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Головна сторінка</title>
-<!--           <link rel="stylesheet" href="style.css">-->
+<!--        <link rel="stylesheet" href="style.css">-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+    <body>
     <header>
-            <table>
-                <tr>
-                    <td><a href="index.php">Головна</a></td>
-                    <td><a href="news.php">Новини</a></td>
-                    <td><a href="shop.php">Магазин</a></td>
-                    <td><a href="contact.php">Контакти</a></td>
-                    <td><a href="/chat/chat.php">Чат</a></td>
-                </tr>
-            </table>
-            <a>
-            <img src="../photo/Без%20названия.png" width="224" height="224"
-                 alt="Логотип мого сайту">
-            </a>
+            <nav>
+                <a>
+                <img src="../photo/Без%20названия.png" width="224" height="224"
+                     alt="Логотип мого сайту">
+                </a>
+                <ul>
+                    <li><a href="index.php">Головна</a></li>
+                    <li><a href="news.php">Новини</a></li>
+                    <li><a href="shop.php">Магазин</a></li>
+                    <li><a href="contact.php">Контакти</a></li>
+                    <li><a href="/chat/chat.php">Чат</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <button type="button"><a href="/chat/login.php">Вхід</a></button>
+                    </li>
+                </ul>
+            </nav>
     </header>
-   <main>
-       <h1> Шонель</h1>
+        <main>
+
+       <h1>Заголовок</h1>
+
        <section>
            <h2>Переваги</h2>
            <ul>
@@ -47,49 +54,80 @@
            <h2> Новини про нашу багадельню</h2>
            <ul>
                <li>
-                   <p>я не з такої сімї як всі я з богатої</p>
+                   <p>Я не з такої сім'ї як всі я з Богатої</p>
+                   <time datetime="2024-08-05">5 серпня</time>
+               </li>
+               <li>
+                   <p>Я не з такої сім'ї як всі я з Богатої</p>
+                   <time datetime="2024-08-07">7 серпня</time>
                </li>
            </ul>
+           <a href="news.php">Всі новини</a>
        </section>
        <section>
            <h2>Фотогалерея</h2>
-           <img src="/chat/photo/wallpapersden.com_k-mountain-snow-landscape_3840x2323.jpg"width="480" height="382">
            <figure>
-               <ul>
-                <li><a href="shop.php">
-               <button type="button"> Наш магазин</button>
-                </li>
-                  <li><a href="news.php">
-               <button type="button">Новини</button>
+               <a href="#">
+                <img src="/chat/photo/wallpapersden.com_k-mountain-snow-landscape_3840x2323.jpg" width= "384" height="232"
+                     alt="Гори">
                </a>
-                  </li>
-               </ul>
            </figure>
+               <button type="button">назад</button>
+               <button type="button">вперед</button>
        </section>
-   </main>
        <section>
            <h2>Контактна інформація</h2>
-               <ul>
-                   <li>Перукарня у Яріка</li>
-                   <li>Адреса,Гуртак 4 кімната 11 блок вулиця Тарнавського 7</li>
-                   <li>Телефон +380660948329</li>
-               </ul>
-       </section>
-       <footer>
-           <p>Перукарня у Яріка<br>
-               Адреса,Гуртак 4 кімната 11 блок вулиця Тарнавського 7<br>
-               Телефон +380660948329
+           <p>Перукарня у Ярка<br>
+               Адреса, Гуртах 4 кімната 11 блок вулиця Тарнавського 7<br>
+               Телефон +380660948329<br>
            </p>
+           <p>
+               Час роботи<br>
+               пн-пт: з 10:00 до 22:00<br>
+               сб-нд: з 10:00 до 19:00
+           </p>
+           <a href="#">як нас знайти</a><br>
+           <a href="contact.php">наші контакти</a>
+       </section>
+            <section>
+                <h2>Запис</h2>
+                <p>Вкажіть бажану дату і час і ми звяжемося з вами для затвердження </p>
+<!--                Форму потім зроблю-->
+            </section>
+        </main>
+       <footer>
+           <p>Перукарня у Ярка<br>
+               Адреса, Гуртах 4 кімната 11 блок вулиця Тарнавського 7<br>
+               <a href="#">як нас знайти</a><br>
+               Телефон +380660948329</p>
            <div>
                <p>соц мережі</p>
                <ul>
                    <li><a href="https://www.instagram.com/_grisha.volkov_?igsh=cmc2a2l4OXV5N3Ez"><i class="fa-brands fa-instagram fa-lg" style="color: #e88282;"></i></li>
                    <li><a href="https://t.me/gishavolkov"><i class="fa-brands fa-telegram" style="color: #74C0FC;"></i></a></li>
                    <li><a href="https://viber.click/+380660948329"><i class="fa-brands fa-viber" style="color: #B197FC;"></i></a></li>
-
                </ul>
            </div>
+           <p>
+               Розробленно:
+               <a href="https://t.me/gishavolkov"><i class="fa-brands fa-telegram" style="color: #74C0FC;">Grisha</i></a></li>
+           </p>
        </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+    <section>
+        <h2>Власний кабінет</h2>
+        <p>Введіть логін і пароль</p>
+<!--        Форма-->
+        <button type="button">закрити</button>
+    </section>
+
+    <section>
+        <h2> як нас знайти</h2>
+        <button type="button">закрити</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+    </script>
+    </body>
 </html>
