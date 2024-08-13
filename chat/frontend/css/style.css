@@ -4,7 +4,6 @@
     background-size: cover;
     height: 100vh;
 }
-
 .overlay {
     position: fixed;
     top: 0;
@@ -14,7 +13,6 @@
     background: rgba(0, 0, 0, 0.6); /* Чорний фон з прозорістю 40% */
     z-index: -1;
 }
-
 .login-form {
     max-width: 500px;
     margin: auto;
@@ -22,12 +20,66 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.2); /* Білий фон з прозорістю 20% */
 }
-
-
 .registration-form {
     max-width: 500px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.4); /* Білий фон з прозорістю 20% */
+}
+
+.navigation {
+    background: #965a2a;
+    padding: 12px 22px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px; /* Закруглені кути */
+    transition: background 0.3s ease, transform 0.3s ease; /* Плавні переходи */
+    box-shadow: 0 4px 6px rgb(234, 142, 77); /* Тінь для кнопок */
+}
+.navigation:hover {
+    background: #daaf4d;
+    transform: translateY(-3px); /* Підйом кнопки при наведенні */
+}
+.nav-links {
+    display: flex;
+    gap: 10px; /* Проміжок між елементами навігації */
+}
+.navigation:focus {
+    background: #2e7be3;
+    outline: none;
+    transform: translateY(-3px); /* Підйом кнопки при фокусі */
+}
+.navigation-fon {
+    display: flex;
+    justify-content: space-between; /* Вирівнює елементи по краях */
+    align-items: center; /* Вирівнює по вертикалі */
+    background-color: #333; /* Темний фон для навігації */
+    padding: 10px 20px; /* Внутрішній відступ */
+    box-shadow: 4px 3px 10px rgb(0, 0, 0); /* Тінь для навігації */
+}
+.navigation:active {
+    transform: translateY(0); /* Опускання кнопки при натисканні */
+    background: #1e3cd2;
+}
+
+.login {
+    margin-left: auto; /* Відділяє кнопку "Вхід" на протилежний край */
+}
+.bumbutton{
+    display: inline-block;
+    margin:15px 40px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 4px solid #342c2c;
+    background:linear-gradient(#000000, #ffffff);
+    color: #000000;
+    font: inherit;
+}
+.bumbutton:focus{
+    background: #8f9ba8;
+}
+.bumbutton:hover {
+    background: #d78787;
 }
