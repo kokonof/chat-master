@@ -1,4 +1,3 @@
-<div class="authorization">
     <div class="overlay"></div>
     <div class="container pt-5">
         <h2 class="text-center mb-4 text-white">Форма реєстрації</h2>
@@ -26,4 +25,3 @@
             </button>
         </form>
     </div>
-</div>
