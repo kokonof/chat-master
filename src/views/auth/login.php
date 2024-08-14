@@ -17,5 +17,5 @@
             </div>
             <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Увійти</button>
         </form>
-        <p class="text-center mt-3 text-white">Не маєте акаунту? <a href="./register.php" class="text-white"><strong>Зареєструйтесь</strong></a></p>
+        <p class="text-center mt-3 text-white">Не маєте акаунту? <a href="register.php" class="text-white"><strong>Зареєструйтесь</strong></a></p>
     </div>

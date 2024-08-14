@@ -1,1 +1,11 @@
+Options -Indexes
+RewriteEngine On
 
+# Перенаправлення всіх запитів на index.php, окрім запитів на існуючі файли та директорії
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Умова для виключення перенаправлення статичних файлів
+RewriteCond %{REQUEST_URI} !\.(?:png|jpg|jpeg|gif|bmp|css|js|ico|svg|webp)$ [NC]
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

@@ -10,17 +10,12 @@
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/chat/public/css/style.css">
+    <link rel="stylesheet" href="<?php echo PUBLIC_BASE_URL?>css/style.css">
 </head>
 <body>
 <div class="main">
-    <?php
-    require dirname(__DIR__) .'/'. $template;
-    ?>
+    <?php require_once $content; ?>
 </div>
-<!-- Підключення Bootstrap JS та jQuery -->
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -1,5 +1,6 @@
-
-<?php require_once 'header.php'?>
+<?php
+require_once BASE_PATH . 'views/header.php';
+?>
     <content>
    <h1>Заголовок !!</h1>
    <section class="advantages">
@@ -31,13 +32,13 @@
                <time class="news-date" datetime="2024-08-07">7 серпня</time>
            </li>
        </ul>
-       <a href="news.php">Всі новини</a>
+       <a href="../news.php">Всі новини</a>
    </section>
    <section class="gallery">
        <h2>Фотогалерея</h2>
        <figure>
            <a href="#">
-            <img src="/chat/public/images/photogalery/gallery_1.jpg" width= "384" height="232" alt="Гори">
+            <img src="/publices/photogalery/gallery_1.jpg" width= "384" height="232" alt="Гори">
            </a>
        </figure>
            <button class="bumbutton" type="button">Попередня</button>
@@ -55,7 +56,7 @@
            Сб-нд: з 10:00 до 19:00
        </p>
        <a href="#">Як нас знайти</a><br>
-       <a href="contact.php">Наші контакти</a>
+       <a href="../contact.php">Наші контакти</a>
    </section>
         <section class="notation">
             <h2>Запис</h2>
