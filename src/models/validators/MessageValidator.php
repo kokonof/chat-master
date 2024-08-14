@@ -4,8 +4,7 @@ namespace App\Models\Validators;
 use App\Core\Validator;
 
 class MessageValidator extends Validator {
-    public function validate($data): array {
-        $message = $data['message'] ?? '';
+    public function validate($message): array {
 
         if (empty($message)) {
             $this->addError('Message is empty');

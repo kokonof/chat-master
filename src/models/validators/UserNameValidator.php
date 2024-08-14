@@ -4,9 +4,8 @@ namespace App\Models\Validators;
 use App\Core\Validator;
 
 class UserNameValidator extends Validator {
-    public function validate($data): array {
-        $username = $data['username'] ?? '';
-
+    public function validate($username): array {
+var_dump($username);
         if (empty($username)) {
             $this->addError('Username is empty');
         }

@@ -4,8 +4,7 @@ namespace App\Models\Validators;
 use App\Core\Validator;
 
 class HeaderValidator extends Validator {
-    public function validate($data): array {
-        $header = $data['header'] ?? '';
+    public function validate($header): array {
 
         if (empty($header)) {
             $this->addError('Header is empty');
