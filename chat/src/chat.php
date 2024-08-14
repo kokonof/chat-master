@@ -1,6 +1,6 @@
 <?php
-require_once ('functions.php');
-require_once ('error.php');
+require_once('functions.php');
+require_once('error.php');
 if ($id = ($_GET['id'] ?? '')) {
     $removeMessages = removeMessages($id);
     header("Location: chat.php");

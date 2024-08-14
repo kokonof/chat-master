@@ -8,7 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Підключення Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/chat/frontend/css/style.css">
+    <link rel="stylesheet" href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/chat/public/css/style.css">
 </head>
 <body>
 <div class="authorization">

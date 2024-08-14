@@ -8,7 +8,7 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/chat/public/css/style.css">
 </head>
     <body>
     <header>
@@ -18,17 +18,17 @@
                 <a class="navigation" href="news.php">Новини</a>
                 <a class="navigation" href="shop.php">Магазин</a>
                 <a class="navigation" href="contact.php">Контакти</a>
-                <a class="navigation" href="/chat/chat.php">Чат</a>
+                <a class="navigation" href="/chat/src/chat.php">Чат</a>
             </div>
-            <a class="navigation login" href="/chat/login.php">Вхід</a>
+            <a class="navigation login" href="/chat/src/login.php">Вхід</a>
         </nav>
-<!--        <a>-->
-<!--            <img src="../photo/Без%20названия.png" width="224" height="260"-->
-<!--                 alt="Логотип мого сайту">-->
-<!--        </a>-->
+        <a>
+            <img src="/chat/public/images/logo/logo_1.png" width="224" style="padding-top: 20px"
+                 alt="Логотип мого сайту">
+        </a>
     </header>
         <main>
-       <h1>Заголовок</h1>
+       <h1>Заголовок !!</h1>
        <section class="advantages">
            <h2>Переваги</h2>
            <ul>
@@ -64,8 +64,7 @@
            <h2>Фотогалерея</h2>
            <figure>
                <a href="#">
-                <img src="/chat/photo/wallpapersden.com_k-mountain-snow-landscape_3840x2323.jpg" width= "384" height="232"
-                     alt="Гори">
+                <img src="/chat/public/images/photogalery/gallery_1.jpg" width= "384" height="232" alt="Гори">
                </a>
            </figure>
                <button class="bumbutton" type="button">Попередня</button>

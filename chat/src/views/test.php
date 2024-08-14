@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Candle Fun (Pure CSS Animation)</title>
-    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="../../public/css/animation.css">
 
 </head>
 <body>

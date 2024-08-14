@@ -48,4 +48,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['email']) && isset($_PO
     $conn = null;
 }
 $template = basename($_SERVER ["PHP_SELF"]);
-require_once 'frontend/leyout/authorization.php';
+require_once 'views/leyout/authorization.php';

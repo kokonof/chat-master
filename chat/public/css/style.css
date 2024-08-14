@@ -5,7 +5,7 @@ body {
     font-size: 16px ;
     line-height: 20px ;
     background-color: #ffffff !important; /* Резервний колір фону на випадок, якщо зображення не завантажиться */
-    background-image: url("../../photo/1657193947_1-pibig-info-p-nezhnii-svetlii-fon-1.jpg");
+    background-image: url("../images/background/background_1.jpg");
     background-position: center; /* Центрування зображення */
     background-size: cover; /* Масштабує зображення, щоб воно повністю покривало екран */
     background-attachment: fixed; /* Фіксує фон при прокручуванні сторінки */
