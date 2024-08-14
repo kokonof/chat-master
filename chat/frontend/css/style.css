@@ -1,3 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", sans-serif ;
+    font-size: 16px ;
+    line-height: 20px ;
+    background-color: #ffffff !important; /* Резервний колір фону на випадок, якщо зображення не завантажиться */
+    background-image: url("../../photo/1657193947_1-pibig-info-p-nezhnii-svetlii-fon-1.jpg");
+    background-position: center; /* Центрування зображення */
+    background-size: cover; /* Масштабує зображення, щоб воно повністю покривало екран */
+    background-attachment: fixed; /* Фіксує фон при прокручуванні сторінки */
+}
+
+
+
 .authorization {
 
     background: url('https://oir.mobi/uploads/posts/2021-03/1616979248_28-p-sinii-neonovii-fon-29.jpg') no-repeat center center fixed;
@@ -28,6 +43,8 @@
     background: rgba(255, 255, 255, 0.4); /* Білий фон з прозорістю 20% */
 }
 
+
+
 .navigation {
     background: #965a2a;
     padding: 12px 22px;
@@ -44,7 +61,7 @@
 }
 .nav-links {
     display: flex;
-    gap: 10px; /* Проміжок між елементами навігації */
+    gap: 15px; /* Проміжок між елементами навігації */
 }
 .navigation:focus {
     background: #2e7be3;
@@ -55,7 +72,7 @@
     display: flex;
     justify-content: space-between; /* Вирівнює елементи по краях */
     align-items: center; /* Вирівнює по вертикалі */
-    background-color: #333; /* Темний фон для навігації */
+    background-color: #1e1b1b; /* Темний фон для навігації */
     padding: 10px 20px; /* Внутрішній відступ */
     box-shadow: 4px 3px 10px rgb(0, 0, 0); /* Тінь для навігації */
 }
@@ -63,10 +80,11 @@
     transform: translateY(0); /* Опускання кнопки при натисканні */
     background: #1e3cd2;
 }
-
 .login {
     margin-left: auto; /* Відділяє кнопку "Вхід" на протилежний край */
 }
+
+
 .bumbutton{
     display: inline-block;
     margin:15px 40px;
@@ -82,4 +100,8 @@
 }
 .bumbutton:hover {
     background: #d78787;
+}
+
+a {
+    text-decoration: none ;
 }
