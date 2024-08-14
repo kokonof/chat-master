@@ -13,7 +13,7 @@
 <body>
 <div class="authorization">
 <?php
-require __DIR__ .'/'. $template;
+require dirname(__DIR__) .'/'. $template;
 ?>
 </div>
 <!-- Підключення Bootstrap JS та jQuery -->
