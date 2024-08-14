@@ -8,8 +8,8 @@
 //} else {
 //    require_once 'src/views/404.php';
 //}
-
-
+session_start();
+var_dump(1);
 use App\Core\Router;
 
 require_once './init.php';

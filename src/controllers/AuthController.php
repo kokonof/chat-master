@@ -5,12 +5,12 @@ use App\Core\Template;
 use App\Models\Chat;
 class AuthController {
     public function login() {
-        $userModel = new Chat();
-        $users = $userModel->getMessages();
+//        $userModel = new Chat();
+//        $users = $userModel->getMessages();
 
         $template = new Template();
         $template->setLayout('auth');
-        $template->render(compact('users')); // Автоматичний вибір шаблону
+        $template->render(compact([]),'chat/index'); // Автоматичний вибір шаблону
     }
 
     public function register() {
