@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $title = trim($_POST['title']);
     $content = trim($_POST['content']);
 
-    var_dump($_POST);
+//    var_dump($_POST);
     if($title === '' || $content === ''){
         $err = 'Заполните все поля!';
     }

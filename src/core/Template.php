@@ -10,6 +10,7 @@ class Template {
     }
 
     public function render($data = [], $template = null) {
+//        var_dump($template);
         if (!$template) {
             $backtrace = debug_backtrace();
             $class = $backtrace[1]['class'];

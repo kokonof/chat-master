@@ -1,4 +1,3 @@
-<?php require_once BASE_PATH . 'views/header.php'; ?>
 
 <div class="container justify-content-center align-items-center mt-4" style="min-height: 80vh;">
     <div class="row">

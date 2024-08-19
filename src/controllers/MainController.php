@@ -11,6 +11,6 @@ class MainController {
 
         $template = new Template();
 //        $template->setLayout('main');
-        $template->render(compact('users'));
+        $template->render(compact('users'),'main/index');
     }
 }

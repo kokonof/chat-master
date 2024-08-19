@@ -12,9 +12,13 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?php echo PUBLIC_BASE_URL?>css/style.css">
 </head>
-<body>
-<div class="main">
+<body class="body">
+<div class="container main">
+    <?php require_once BASE_PATH . 'views/partials/header.php'; ?>
+
     <?php require_once $content; ?>
+
+    <?php require_once BASE_PATH . 'views/partials/footer.php'; ?>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

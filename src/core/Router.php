@@ -5,6 +5,7 @@ namespace App\Core;
 class Router {
     public static function route($url) {
 
+//        var_dump($url);
         $controller = !empty($url[0]) ? ucwords($url[0]) . 'Controller' : 'MainController';
         array_shift($url);
 

@@ -8,7 +8,10 @@
             <a class="navigation" href="<?php echo BASE_URL; ?>shop">Магазин</a>
             <a class="navigation" href="<?php echo BASE_URL; ?>contact">Контакти</a>
         </div>
-        <a class="navigation login" href="<?php echo BASE_URL; ?>auth/login">Вхід</a>
-        <a class="navigation" href="<?php echo BASE_URL; ?>auth/register">Реєстрація</a>
+        <div class="nav-links right-menu">
+            <a class="navigation-login navigation " href="<?php echo BASE_URL; ?>auth/login">Вхід</a>
+            <a class="navigation navigation-login" href="<?php echo BASE_URL; ?>auth/register">Реєстрація</a>
+        </div>
+
     </nav>
 </header>

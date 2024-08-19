@@ -10,7 +10,7 @@ class AuthController {
 
         $template = new Template();
         $template->setLayout('auth');
-        $template->render(compact([]),'chat/index'); // Автоматичний вибір шаблону
+        $template->render(compact([]),'auth/login'); // Автоматичний вибір шаблону
     }
 
     public function register() {
@@ -19,15 +19,15 @@ class AuthController {
 
         $template = new Template();
         $template->setLayout('auth');
-        $template->render(compact('users')); // Автоматичний вибір шаблону
+        $template->render(compact('users'),'auth/register'); // Автоматичний вибір шаблону
     }
 
-    public function customMethod() {
-        $userModel = new Chat();
-        $users = $userModel->getMessages();
+    public function logout() {
+        session_start();
+        session_destroy();
 
-        $template = new Template();
-        $template->render(compact('users'), 'auth/custom_template'); // Явне переоприділення шаблону
+        header("Location: /");
+        exit();
     }
 }
 
