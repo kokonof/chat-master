@@ -1,11 +1,10 @@
 <footer class="main-footer">
     <p>Перукарня у Ярка<br>
-        Адреса, Гуртах 4 кімната 11 блок вулиця Тарнавського 7<br>
-        <a class="a-decoration" href="#">Як нас знайти</a><br>
+        Адреса, м-Тернопіль вул.Тарнавського 7<br>
         Телефон +380660948329</p>
     <div class="footer-contacts">
         <p>соц мережі</p>
-        <ul class="footer-social-ul">
+        <ul class="footer-social">
             <li class="footer-social">
                 <a class="social-button footer-social-button" href="https://www.instagram.com/_grisha.volkov_?igsh=cmc2a2l4OXV5N3Ez">
                     <i class="fa-brands custom-fa-brands fa-instagram fa-2xl" ></i>

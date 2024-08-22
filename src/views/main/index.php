@@ -1,7 +1,7 @@
 <content>
-    <h1>Заголовок !!</h1>
+    <a class="logos"><img  class="logo" src="<?php echo PUBLIC_BASE_URL?>images/logo/logo_2.jpg" alt="Логотип мого сайту"></a>
+<!--    <h1>Заголовок !!</h1>-->
     <section class="features">
-        <h2>Переваги</h2>
         <ul class="features-list">
             <li class="features-item">
                 <h3>Швидко</h3>
@@ -30,26 +30,25 @@
                     <time class="news-date" datetime="2024-08-07">7 серпня</time>
                 </li>
             </ul>
-            <a class="a-decoration" href="../news.php">Всі новини</a>
+            <button class="bumbutton news-button" href="../news.php">Всі новини</button>
         </section>
-        <section class="gallery-content">
-            <h2>Фотогалерея</h2>
+        <section class="gallery">
+            <h2  >Фотогалерея</h2>
+            <div class="gallery-content">
             <figure>
-                <a class="a-decoration" href="#">
-                    <img src="<?php echo PUBLIC_BASE_URL ?>images/photogalery/gallery_1.jpg" width="384" height="232"
-                         alt="Гори">
-                </a>
+                <a href="#">
+                    <img  src="<?php echo PUBLIC_BASE_URL ?>images/photogalery/gallery_1.jpg" width="286" height="164" alt="Гори"></a>
             </figure>
-            <button class="bumbutton" type="button">Попередня</button>
-            <button class="bumbutton" type="button">Наступна</button>
+            <button class="bumbutton gallery-button gallery-button-back" type="button">Попередня</button>
+            <button class="bumbutton gallery-button gallery-button-next" type="button">Наступна</button>
+            </div>
         </section>
     </div>
-    <div class="index-columns">
-
+    <div class="index-columns ">
         <section class="contacts">
             <h2>Контактна інформація</h2>
             <p>Перукарня у Ярка<br>
-                Адреса, Гуртах 4 кімната 11 блок вулиця Тарнавського 7<br>
+                Адреса, Гуртах 4 к 11 блок вулиця Тарнавського 7<br>
                 Телефон +380660948329<br>
             </p>
             <p>
@@ -57,20 +56,20 @@
                 Пн-пт: з 10:00 до 22:00<br>
                 Сб-нд: з 10:00 до 19:00
             </p>
-            <a class="a-decoration" href="#">Як нас знайти</a><br>
-            <a class="a-decoration" href="../contact.php">Наші контакти</a>
+            <button class="bumbutton" href="#">Як нас знайти</button>
+            <button class="bumbutton" href="../contact.php">Наші контакти</button>
         </section>
         <section class="appointment">
             <h2>Запис</h2>
-            <p>Вкажіть бажану дату і час і ми звяжемося з вами для затвердження </p>
-            <form action="///" method="post">
+            <p class="appointment-info">Вкажіть бажану дату і час <br>і ми звяжемося з вами для затвердження </p>
+            <form class="appointment-form" action="///" method="post">
                 <p class="appointment-item">
                     <label for="appointment-date">Дата</label>
-                    <input id="appointment-date" tupe="date" name="date" value="2024-08-13">
+                    <input id="appointment-date" tupe="date" name="date" value="" placeholder="2024-08-13">
                 </p>
                 <p class="appointment-item">
                     <label for="appointment-time">Час</label>
-                    <input id="appointment-time" tupe="time" name="time" value="10:00">
+                    <input id="appointment-time" tupe="time" name="time" value="" placeholder="10:00">
                 </p>
                 <p class="appointment-item">
                     <label for="appointment-name">Ваше імя</label>
@@ -80,13 +79,9 @@
                     <label for="appointment-phone">Телефон</label>
                     <input id="appointment-phone" tupe="tel" name="tel" value="" placeholder="+380845734665">
                 </p>
-                <button type="submit">Відправити</button>
+                <button class="bumbutton-appointment" type="submit">Відправити</button>
             </form>
         </section>
     </div>
 </content>
 
-<section class="map">
-    <h2> Як нас знайти</h2>
-    <button type="button">закрити</button>
-</section>
