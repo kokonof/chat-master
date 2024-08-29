@@ -9,7 +9,7 @@ class ShopController
     public function index() {
 
         $template = new Template();
-        $template->setLayout('main');
+        $template->setLayout('shop');
         $template->render(compact([]),'shop/index');
     }
 }

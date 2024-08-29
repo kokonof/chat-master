@@ -9,7 +9,7 @@ class NewsController
     public function index() {
 
         $template = new Template();
-        $template->setLayout('main');
+        $template->setLayout('news');
         $template->render(compact([]),'news/index');
     }
 }
