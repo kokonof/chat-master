@@ -6,8 +6,9 @@
         <p>соц мережі</p>
         <ul class="footer-social">
             <li class="footer-social">
-                <a class="social-button footer-social-button" href="https://www.instagram.com/_grisha.volkov_?igsh=cmc2a2l4OXV5N3Ez">
-                    <i class="fa-brands custom-fa-brands fa-instagram fa-2xl" ></i>
+                <a class="social-button footer-social-button"
+                   href="https://www.instagram.com/_grisha.volkov_?igsh=cmc2a2l4OXV5N3Ez">
+                    <i class="fa-brands custom-fa-brands fa-instagram fa-2xl"></i>
                 </a>
             </li>
             <li class="footer-social">
