@@ -1,5 +1,4 @@
 <main class="container">
-
     <div class="inner-page-container">
         <h1>Прайс-лист</h1>
         <ul class="breadcrumbs">
@@ -18,7 +17,7 @@
                     <li>Baxter of California</li>
                     <li>Mr natty</li>
                     <li>Suavecito</li>
-                    <li>Malin+Goetz</li>
+                    <li>Malin+Goe tz</li>
                 </ul>
             </div>
             <div class="inner-columns-right">
@@ -41,7 +40,7 @@
             </div>
         </div>
         <div class="inner-columns">
-                <h3>Декілька слів про нас</h3>
+            <h3>Декілька слів про нас</h3>
             <div class="inner-columns-left">
                 <p>
                     "Ми прагнемо до інновацій та якості в кожному аспекті нашої роботи."
