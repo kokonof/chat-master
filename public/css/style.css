@@ -23,17 +23,33 @@
     transition: background 0.3s ease, transform 0.3s ease; /* Плавні переходи */
     box-shadow: 0 4px 6px rgb(234, 142, 77); /* Тінь для кнопок */
 }
+.navigation_1,
+.navigation_2{
+    border: none;
+    background: #965a2a;
+    padding: 12px 22px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px; /* Закруглені кути */
+    transition: background 0.3s ease, transform 0.3s ease; /* Плавні переходи */
+    box-shadow: 0 4px 6px rgb(234, 142, 77); /* Тінь для кнопок */
+}
 
 .navigation-login {
     background: #965a2a;
 }
 
-.navigation:hover {
+.navigation:hover,
+.navigation_1:hover,
+.navigation_2:hover{
     background: #daaf4d;
     transform: translateY(-3px); /* Підйом кнопки при наведенні */
 }
 
-.navigation:active {
+.navigation:active,
+.navigation_1:active,
+.navigation_2:active{
     transform: translateY(0); /* Опускання кнопки при натисканні */
     background: #1e3cd2;
 }
@@ -43,7 +59,9 @@
     gap: 15px; /* Проміжок між елементами навігації */
 }
 
-.navigation:focus {
+.navigation:focus,
+.navigation_1:focus,
+.navigation_2:focus{
     background: #2e7be3;
     outline: none;
     transform: translateY(-3px); /* Підйом кнопки при фокусі */
@@ -187,10 +205,12 @@
     border: none;
     background: black;
 }
-.bumbutton:focus {
+.bumbutton:focus,
+.bumbutton-appointment:focus{
     background: #8f9ba8;
 }
-.bumbutton:hover {
+.bumbutton:hover,
+.bumbutton-appointment:hover{
     background: #3c2727;
 }
 
@@ -258,7 +278,7 @@
     justify-content: space-between; /* Розподіляє елементи по горизонталі */
     align-items: center; /* Вирівнює елементи по вертикалі */
     padding: 20px;
-    background-color: #333; /* Фоновий колір футера */
+    background-color: #333;
     color: #fff; /* Колір тексту */
     flex-wrap: wrap; /* Дозволяє елементам переходити на наступний рядок, якщо не вистачає місця */
 }
@@ -338,7 +358,6 @@
 
 
 .modal{
-    /*display: block;*/
     position: fixed;
     color: #000000;
     background-color: #f8f3f0;
@@ -349,11 +368,14 @@
 .modal-login{
     top:120px;
     left:50%;
-    /*display: none;*/
+    display: none;
     width:510px;
     height: 380px;
     margin-left: -230px;
     padding: 30px 80px;
+}
+.modal-show{
+    display: block;
 }
 .modal-close{
     position: absolute;
