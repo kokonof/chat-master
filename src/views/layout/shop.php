@@ -26,5 +26,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous">
 </script>
+<script  src="<?php echo PUBLIC_BASE_URL?>js/js_code.js"></script>
 </body>
 </html>
